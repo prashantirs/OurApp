@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.middle-content{
+    margin-top: 9rem;
+    margin-left: 10rem;
+}
+
+
+p{
+ font-weight: lighter;  
+ line-height: 2;
+}
+
+.midlle-para{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: rgb(112, 109, 109);
+}
+.middle-form{
+    margin-top: 5rem;
+    
+    
+}
+.row{
+    --bs-gutter-x: -0.5rem !important;
+}
+
+.no-margin{
+    margin-left: 0 !important;
+}
+
+
+.form-width{
+    width: 32rem;
+    border-radius: 8px;
+    height: 3rem;
+    border-style: solid;
+    border-width: thin;
+}
+
+.light{
+    color: rgb(116, 110, 110);
+}
+#placeholder-top::placeholder {
+padding: 0;
+}
+::placeholder{
+    padding-left: 10px;
+}
+
+.form-button{
+    width: 31rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+
+
+@media (max-width: 822px){
+    .navbar-brand{
+        
+        margin-bottom: 0.5rem;
+    }
+    .middle-content{
+        margin-top: 9rem;
+        margin-left: 1rem;
+    }
+    .middle-form{
+        margin-top: 5rem;
+        margin-left: 3.5rem;
+    }
+    h1{
+       margin-left: 2.5rem;
+    }
+    p{
+        width: fit-content;
+        margin: auto;
+    }
+  
+
+    .form-width{
+        width: 16rem;
+        
+    }
+    .form-button{
+        width: 12rem;
+        margin-left: 1.5rem;
+    }
+    .footer{
+        width: fit-content;
+        margin: auto;
+    }
+}
