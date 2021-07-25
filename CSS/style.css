@@ -66,6 +66,19 @@ padding: 0;
     padding: 0 !important;
     margin: 0 !important;
  }
+ .footer-content{
+    width: fit-content;
+    margin: auto;
+    
+    padding: 2rem;
+ }
+
+ .footer{
+     background-color: black;
+     color:rgb(121, 116, 116);
+     
+     
+ }
 
 
 
@@ -80,7 +93,7 @@ padding: 0;
     }
     .middle-form{
         margin-top: 5rem;
-        margin-left: 3.5rem;
+        margin-left: 1.6rem;
     }
     h1{
        margin-left: 2.5rem;
@@ -92,15 +105,14 @@ padding: 0;
   
 
     .form-width{
-        width: 16rem;
+        width: 18rem;
         
     }
     .form-button{
         width: 12rem;
-        margin-left: 1.5rem;
+        
     }
-    .footer{
-        width: fit-content;
-        margin: auto;
-    }
+  .footer-content{
+      font-size: 10px;
+  }
 }
